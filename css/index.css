@@ -1,0 +1,359 @@
+.header{
+    padding: 20px 0;
+}
+.logo img{
+    height: 28px;
+    vertical-align: top;
+}
+.logo span{
+    font-size: 18px;
+    color: #2f2e2e;
+    font-weight: 700;
+    line-height: 28px;
+}
+.header i{
+    font-size: 20px;
+    text-align: right;
+    color: #2f2e2e;
+    line-height: 28px;
+}
+.header .icon-more{
+    float: right;
+}
+.header .logo:hover .name{
+    color: #666;
+}
+.header .icon-more:hover .icon-gengduo1{
+    color: #666;
+}
+.banner{
+    width: 100%;
+    height: 1065px;
+    position: relative;
+    margin-bottom: 120px;
+    background-image: url("../images/banner.jpg");
+    background-size: cover;
+    background-attachment: scroll;
+}
+.banner img{
+    width: 100%;
+}
+.banner .text{
+    width: 240px;
+    height: 325px;
+    background: white;
+    padding: 70px 60px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+.banner .text p{
+    font-size: 90px;
+    color: #2f2e2e;
+    font-weight: 900;
+    font-family: Arial;
+    margin-bottom: 40px;
+    line-height: 1;
+}
+.banner .text a{
+    display: block;
+    margin-top: -40px;
+    text-align: center;
+    color: #2f2e2e;
+}
+.banner .text i{
+    font-size: 80px;
+}
+.banner .text:hover a{
+    transform: rotate(360deg);
+    transition: all 0.5s;
+}
+@media screen and (max-width: 768px){
+    .banner{
+        width: 100%;
+        height: 484px;
+        margin-bottom: 120px;
+        position: relative;
+        background-image: url("../images/banner.jpg");
+        background-size: cover;
+        background-attachment: scroll;
+    }
+    .box{
+        padding: 0 15px;
+    }
+    .banner .text{
+        width: 140px;
+        height: 204px;
+        background: white;
+        padding: 40px;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    .banner .text p{
+        font-size: 60px;
+        color: #2f2e2e;
+        font-weight: 900;
+        font-family: Arial;
+        margin-bottom: 10px;
+        line-height: 1;
+    }
+    .banner .text a{
+        display: block;
+        margin-top: -20px;
+        text-align: center;
+        color: #2f2e2e;
+    }
+    .banner .text i{
+        font-size: 70px;
+    }
+}
+.service{
+    font-size: 22px;
+    font-weight: 700;
+    color: #2f2e2e;
+    margin: 10px auto;
+    letter-spacing: 4px;
+    text-align: center;
+}
+.orange{
+    width: 40px;
+    height: 3px;
+    background: #f7931d;
+    margin:  20px auto;
+}
+.introduced{
+    margin-top: 40px;
+    margin-bottom: 120px;
+    padding: 25px;
+}
+@media screen and (max-width: 768px){
+    .introduced{
+        margin-bottom: 0;
+    }
+    .introduced-down{
+        margin-bottom: 60px;
+    }
+}
+.introduced img{
+    width: 100%;
+}
+.introduced h5{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.introduced p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.6;
+    letter-spacing: 2px;
+}
+.goods{
+    margin-bottom: 120px;
+}
+.introduced-2{
+    margin-bottom: 20px;
+}
+.introduced-2 img{
+    width: 100%;
+}
+.introduced-2 .mask{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: rgba(0,0,0,0.8);
+    display: none;
+    box-sizing: border-box;
+}
+.introduced-box{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.mask h4{
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 21px;
+    color: #fff;
+    padding: 16px;
+    font-weight: 400;
+}
+.mask h5{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 16px;
+    color: #fff;
+    padding: 16px;
+    font-weight: 400;
+}
+.introduced-2:hover .mask{
+    display: block;
+    animation: mask 0.3s linear forwards;
+}
+.introduced-2:hover img{
+    transform: scale(1.2);
+    transition: all 0.3s;
+}
+@keyframes mask{
+    0%{
+        display: block;
+    }
+    10%{
+        border: 0 solid rgba(225,225,225,0.2);
+    }
+    100%{
+        border: 20px solid rgba(225,225,225,0.2);
+    }
+}
+.left h1{
+    font-size: 65px;
+    font-weight: 700;
+    line-height: 0.87;
+    color: #2f2e2e;
+}
+.left h4{
+    font-size: 24px;
+    letter-spacing: 4px;
+    text-indent: 4px;
+    color: #2f2e2e;
+    font-weight: 700;
+    margin: 10px 0;
+}
+.left h6{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #2f2e2e;
+    font-weight: 400;
+    margin: 15px 0 0 4px;
+}
+.right p{
+    font-size: 14px;
+    line-height: 1.4;
+    color: #2f2e2e;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.right img{
+    width: 100%;
+}
+.about{
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+@media screen and (max-width: 768px){
+    .about{
+        text-align: center;
+    }
+}
+.text-3 img{
+    display: block;
+    width: 160px;
+    margin: 0 auto 15px;
+}
+.text-3 h4{
+    font-size: 18px;
+    margin: 10px 0;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1.1;
+    color: #2f2e2e;
+}
+.text-3 p{
+    font-size: 16px;
+    color: #2f2e2e;
+    margin: 40px auto;
+    text-align: center;
+}
+.point {
+    width: 130px;
+    height: 22px;
+    margin: 0 auto;
+}
+.point .point-1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    border: 2px solid rgba(0,0,0,0.8);
+    margin: 5px 7px;
+    float: left;
+}
+.point .point-2{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.5);
+    margin: 5px 7px;
+    float: left;
+    cursor: pointer;
+}
+.point-2:hover{
+    background: #000;
+}
+.foot{
+    margin-bottom: 120px;
+}
+.foot .portrait{
+    border-radius: 50%;
+}
+.box-1{
+    overflow: hidden;
+}
+.bottom{
+    width: 100%;
+    height: 412px;
+    background-image: url("../images/background2.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+}
+.mask-1{
+    width: 100%;
+    height: 232px;
+    padding: 90px 0;
+    background-color: rgba(47,46,46,0.7);
+}
+@media screen and (max-width: 768px){
+    .bottom{
+        width: 100%;
+        height: 330px;
+        background-image: url("../images/slide2.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+    }
+    .mask-1{
+        width: 100%;
+        height: 250px;
+        padding: 40px 0;
+        background-color: rgba(47,46,46,0.7);
+    }
+    .logo .logo-big{
+        width: 100px;
+        height: auto;
+    }
+}
+.logo .logo-big{
+    display: block;
+    margin: 0 auto;
+    width: 130px;
+    height: auto;
+}
+.foot-down{
+    width: 100%;
+    height: 80px;
+    color: #999;
+    background: #2f2e2e;
+    text-align: center;
+    line-height: 80px;
+    font-size: 14px;
+}
